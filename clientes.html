@@ -91,31 +91,7 @@
             </div>
         </div>
     </div>
-    <body2>
-  <h1>Registros del Formulario</h1>
 
-  <div id="registros"></div>
-
-  <script>
-    // Obtener los datos de localStorage
-    const registroGuardado = localStorage.getItem('registro');
-
-    if (registroGuardado) {
-      // Convertir los datos de JSON a objeto
-      const registro = JSON.parse(registroGuardado);
-
-      // Mostrar los datos en la página
-      const registrosDiv = document.getElementById('registros');
-      registrosDiv.innerHTML = `
-        <p>Nombre: ${registro.nombre}</p>
-        <p>Correo: ${registro.email}</p>
-        <p>Mensaje: ${registro.mensaje}</p>
-      `;
-    } else {
-      document.getElementById('registros').innerHTML = '<p>No hay registros disponibles.</p>';
-    }
-  </script>
-</body2>
 <footer>
 </body>
     <div class="container">
