@@ -1,0 +1,459 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Imagenes/fondo.jpg);
+}
+
+header {
+    background-color: #0b3a13;
+    color: rgb(55, 158, 60);
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #6aff4d;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#mapa {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+#comentarios p {
+    background-color: #e7e7e7;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #173f0d;
+    color: rgb(20, 129, 10);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+}
+
+.cont {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    color:rgb(15, 63, 15);
+    font-family: "Sixtyfour Convergence", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+    
+}
+
+.quienes-somos-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.quienes-somos-subsection {
+    padding: 20px;
+    border: 1px solid #e90707;
+    border-radius: 8px;
+}
+
+.quienes-somos-subsection h3 {
+    margin-bottom: 10px;
+}
+
+.quienes-somos-subsection ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.quienes-somos-subsection li {
+    margin-bottom: 5px;
+}
+.page-preview {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.page-item {
+    width: 100px; 
+    margin: 10px; 
+    text-align: center; 
+}
+
+.page-item img {
+    max-width: 100%; 
+    height: 150px; 
+}
+.seccionimagenes {
+    background-image: image-set(url(Imagenes/fondor.jpg));
+    padding: 4%;
+    padding-top: 1%;
+    text-align: center;
+    color: #0b8800;
+}
+.containerabajo{
+    color: #33ff00;
+}
+.presentacion{
+    background-image: image-set(url(Imagenes/fondo3.jpg));
+    background-size: 100% 100%;
+    text-align: center;
+}
+.hero-content{
+    color: #33ff00;
+}
+.btn{
+    color: #33ff00;
+}
+.medio{
+    background-image: image-set(url(Imagenes/fondo4.jpg));
+    background-size: 100% 100%;
+    text-align: center;
+}
+.containermedio{
+    color: #6aff4d;
+}
+.seccionabajo{
+    background-image: image-set(url(Imagenes/fondo5.jpg));
+    background-size: 100% 100%;
+    text-align: center;
+}
+.serviciosabajo{
+    color: #33ff00;
+}
+.formcontacto{
+    text-align: center;
+}
+.quienes-somos-texto{
+    text-align: center;
+    color: #33ff00;
+}
+.containercontacto{
+    background-image: image-set(url(Imagenes/fondo3.jpg));
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 5%;
+    border-radius: 10%;
+}
+.section{
+    background-image: image-set(url(Imagenes/fondo3.jpg));
+}
+.letras{
+    color: #33ff00;
+}
+.enviarxd{
+    color: #00ff55;
+    border-radius: 50%;
+    background-color:#0b6e72;   
+    width: auto;
+}
+.map-container{
+    align-content: center;
+    border-radius: 3%;
+    padding: 2%;
+}   
+.capo{
+    background-color:#0b6e72;
+    border-radius: 10%;
+    align-content: center;
+    align-items: center;
+}
+.page-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+.page-item:hover {
+    transform: translateY(-5px); /* Eleva ligeramente la sección */
+    box-shadow: 0 5px 15px rgba(26, 90, 0, 0.973); /* Agrega una sombra */
+}
+
+.page-item img {
+    transition: transform 0.3s ease; /* Transición suave para la imagen */
+}
+
+.page-item:hover img {
+    transform: scale(1.05); /* Escala ligeramente la imagen */
+}
+.quienes-somos-subsection{
+    text-align: center;
+    color: #00ff55;
+}
+.quienes-somos-content{
+    background-image: image-set(url(Imagenes/fondo5.jpg));
+}
+.imgquien{
+    width: 1200px;
+    height: 500px;
+    padding-bottom: 3%;
+    padding-left: 1%;
+    align-content: center;
+}
+.bordes{
+    background-color: #0b3a13;
+}
+.container2{
+    color: #0aff68;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.review-container {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.containerclientes{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.sectionclientes{
+    background-image: image-set(url(Imagenes/fondo5.jpg));
+}
+.review {
+    background-color: #127c47;
+    border-left: 5px solid #3498db;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.review h3 {
+    margin-top: 0;
+    color: #00ff55;
+}
+
+.review p {
+    font-size: 1rem;
+    color: #02ff24;
+}
+
+.review span {
+    font-weight: bold;
+    color: #67c2ff;
+}
+
+.review-image {
+    margin-top: 15px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.containerboletines{
+    text-align: center;
+    font-family: "Dancing Script", serif;
+    font-size: 130%;
+    color: #02ff24;
+}
+.servicios {
+    background: linear-gradient(135deg, #308030, #81e9f7); /* Degradado llamativo */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.containerservicios {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 3.5em;
+    margin-bottom: 50px;
+    color: #33f37c; /* Azul más oscuro para el título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grid responsivo */
+    gap: 30px;
+    margin-bottom: 5%;
+}
+
+.servicio-item {
+    background-color: #80ebb5;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.servicio-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.servicio-item h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #24a039; /* Azul más claro para los títulos */
+    position: relative;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.servicio-item h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 4px;
+    background-color: #00acc1;
+}
+
+.servicio-item p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 30px;
+    margin-bottom: 5%;
+}
+
+.servicio-item .precio {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #009688; /* Verde para los precios */
+    background-color: #e8f5e9;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.sectionservicios{
+    background-image: image-set(url(Imagenes/fondo5.jpg));
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 3.5em;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.certificaciones-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.certificacion-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificacion-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.certificacion-logo {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.certificacion-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.certificacion-item p {
+    font-size: 1.1em;
+    line-height: 1;
+    font-family: "Sixtyfour Convergence", serif;
+    text-align: center;
+}
+
+.compromiso {
+    margin-top: 50px;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #00ff2a; /* Azul claro para resaltar */
+    text-align: center;
+}
+.sectioncertificaciones{
+    background-image: image-set(url(Imagenes/fondo3.jpg));
+}
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #00ff55;
+    text-align: center  ;
+}
