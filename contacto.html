@@ -55,24 +55,6 @@
             
               <input class="enviarxd" type="submit" value="Enviar">
             </form>
-            <script>
-  document.getElementById('miFormulario').addEventListener('submit', function(event) {
-    // Capturar los datos del formulario
-    const nombre = document.getElementById('nombre').value;
-    const email = document.getElementById('email').value;
-    const mensaje = document.getElementById('mensaje').value;
-
-    // Crear un objeto con los datos
-    const registro = {
-      nombre: nombre,
-      email: email,
-      mensaje: mensaje
-    };
-
-    // Almacenar los datos en localStorage
-    localStorage.setItem('registro', JSON.stringify(registro));
-  });
-            </script>
 
                 <div class="quienes-somos-texto">
                     <h3>Nuestros Valores</h3>
